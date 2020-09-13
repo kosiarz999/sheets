@@ -1,0 +1,26 @@
+
+
+Wszelkie dmuchnięcia można usunąć nakładając HPF na 110 Hz. Jednakże pamiętaj, że najniższe dźwięki jakie jest w stanie wygenerować człowiek to E2, rzędu 80 Hz. Więc musisz wiedzieć gdzie dokładnie uciąć, by nie utracić dołu wokalu.
+
+Następnie należy zbalansować wokal w stosunku do ścieżki.
+
+Potem należy nałożyć kompresor na całość ścieżki. Dobrym wyborem będą pluginy symulujące UA1176 (Waves CLA-76, przykładowo, 50$). Warto pomyśleć o równoległym kompresowaniu (parallel compression) w przypadku, gdy wokalista za mocno zmienia dystans od mikrofonu.
+
+Potem należy zastosować DeEsser, żeby usunął wszelkie syki z wokalu (UA: 100 euro, Waves: 30$). Ustawiasz go jako pierwszego w łańcuchu. Próg ustawiasz na 7k Hz. 
+
+Potem możesz użyć equalizera. Wszystko zależy od wokalisty. Przykładowo, Rick pracując nad wokalem Michaela Johnsa, podbił 825 Hz i nieznacznie wzmocnił 2,14k Hz.
+
+Dopiero wówczas w grę wchodzą efekty. Rick zastosował reverb Lexicon 224 Universal Audio (180 euro). 
+Po nim należy jeszcze raz dokonać equalizacji efektu. Reverb, w przypadku męskiego głosu, musi obejść (HPF) dolne częstotliwości. W tym przypadku Rick ustawił filtr górnoprzepustowy na 140 Hz i dodatkowo wzmocnił 11k Hz o 8 dB. 
+
+Reverb należy używać tylko w sytuacji gdy wokal ma dużo przestrzeni. Jeśli nie ma miejsca w wokalu to nie ma sensu używać reverba, lepiej jest użyć delay.
+W tym przypadku Rick ustawił reverb na 3 sekundy, a pre-delay ustawił na 106 ms. Pre-delay to czas po jakim odpali efekt. Z reguły ustawia się pre-delay na 20 - 40 ms, w tym przypadku ustawił tak dużo ze względu na przestrzeń jaką miał do wykorzystania. Ustawiając reverb należy brać pod uwagę tempo piosenki. 
+
+Potem Rick dorzucił delay ustawiony na 500 ms. Ustawiając delay nie musisz kierować się tempem piosenki. De facto, jeśli ustawisz delay w tempo piosenki to go nie usłyszysz. Wielokrotnie możesz nakładać różny delay na każdym kanale z osobna i ustawiać je wedle gustu, po to by stworzyć wrażenie ruchu i pulsacji (vide "Tristram").
+Potem możesz dorzucić jeszcze jeden throw delay, który jest pojedynczym echem wrzuconym na jeden kanał, ustawiony najczęściej na ćwierćnutę (puls), dodatkowo zequalizowany.
+
+Potem jeszcze raz dokonujesz equalizacji za pomocą jakiegoś channel strip, i różnicujesz equalizację na obu kanałach, nie chcesz, by wokal brzmiał tak samo na obu kanałach. Dodatkowo nakładasz jeszcze jeden equalizer na całość reverb+delay. Tutaj: wycięte 62 Hz, wycięte 2,7k Hz o 1dB (dźwięk "i"). Możesz jeszcze nałożyć dodatkowy deesser jeśli zajdzie taka potrzeba.
+
+Kompresja jest wrogiem, gdy masz do czynienia z wokalistą o bardzo ostrym głosie (harsh, chropowatym?), gdyż może jeszcze bardziej uwydatnić takie dźwięki jak "i". Musisz używać kompresji ostrożnie. Dlatego właśnie poznanie charakterystyki własnego głosu jest kluczowe, już na poziomie nagrywania należy odpowiednio zequalizować głos, by nie stanowił żadnego problemu dla producenta.
+
+

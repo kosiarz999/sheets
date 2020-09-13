@@ -1,0 +1,90 @@
+Określone częstotliwości możemy wzmocnić albo osłabić. Gdy daną częstotliwość wzmacniamy (additive/boosting) to należy wybrać szerszy zakres częstotliwości, by przejście między częstotliwościami było łagodniejsze.Gdy daną częstotliwość osłabiamy (subtractive/attenuating) to należy wybrać wąski zakres częstotliwości, gdyż z reguły wycinamy określoną częstotliwość, która została wzmocniona przez np. rezonans sprzętu. W takim wypadku rezonans jest o konkretnej częstotliwości, nie zakresem częstotliwości.Q oznacza zakres częstotliwości.Parametryczny equalizer (parametric equalizer) to eq, w którym można wybrać dowolną częstotliwość i dowolnie ją zmodyfikować. Przeważający typ w świecie DAW.Graficzny equalizer (graphic equalizer) to eq, który składa się ze sliderów wybranych częstotliwości, najczęściej 31.FiltryWyróżniamy cztery typy filtrów:
+	1. HPF (High pass filter) - filtr górnoprzepustowy. 
+	2. LPF (Low pass filter) - filtr dolnoprzepustowy.
+	3. BPF (Band pass filter) - filtr środkowoprzepustowy.
+	4. Notch filter (Band stop-filter) - filtr środkowozaporowy.
+
+Analogowe equalizery (Analog EQ)Neve 1073 (ponad 14k zł), 1066, 1084, 1081API 550A (5200 zł), 550B (6k zł), 560SSL 500-Series 611 EQ (3600 zł)i cała masa innych drogich zabawekCyfrowe EQMcDSP FilterBank E606, F202, P606 (od 400 do 630 zł)Metric Halo - Channel strip 6 bandWaves - Q10 (EQ, 130 zł), V-EQ4 (bazuje na Neve 1081, 130 zł), Scheps 73 (emulacja Neve 1073, 300 zł), Renaissance Equalizer (210 zł), API (550A, 550B, 560, pojedyńcze 130 zł, kolekcje od 550 zł), Waves H-EQ Hybrid (130 zł), SSL E-Channel i G-Channel (po 430 zł).Universal Audio - Cambridge EQ (150 euro), Pultec (300 euro), Neve 1073 (300 euro), Neve 1081 (250 euro), API 500 Series (300 euro), Harrison 32 (250 euro), Neve 31102 (250 euro), Trident (250 euro), Helios Type 69 (300 euro).FabFilter Pro-Q 3 (640 zł)Soundtoys FilterFreak (640 zł)Częstotliwości perkusji.
+	* Kick drum (centrala). Low: 50 - 100 Hz (decyzja zależy od tego jakie częstotliwości ma okupować bas, jeśli kick jest ustawiony na 60 Hz to bas powinien okupować 80 Hz i vice versa). Cut mids: 360 - 800 Hz for rock (chyba, że szukasz takiego brzmienia jak Bonham, wówczas nie należy wycinać tych częstotliwości). Atak: 2k - 4k Hz w zależności od gatunku (Metallica boostowała kick na poziomie 5k - 6k Hz). 
+	* Snare drum (werbel). Low: 100 - 250 Hz. Uderzenie: 1k - 1,4k Hz. Wires (presence): 7k Hz. Nagrywany dwoma mikrofonami, z dolnym (Shure 57) w przeciwnej fazie, ale na osobnych ścieżkach, gdyż niektóre werble rezonują zbyt mocno i trzeba je puścić przez bramkę (gate).
+	* Toms. Filter: 40 Hz i niżej. Wycięte 500 Hz dla przejrzystości (usuwasz w ten sposób "papierowy" dźwięk). Nagrywany dwoma mikrofonami (Sennheiser MD421-II, Shure SM57) spiętymi kablem Y, z dolnym mikrofonem (SM57) w przeciwnej fazie. Tak nagrywany tom-tom jest automatycznie zequalizowany.
+	* High Hat i Ride. HPF na 200 Hz, ZAWSZE. W ten sposób usuwasz drżenie statywu, pracę pedała i inne zbędne informacje.
+	* Overheads. HPF na 40 Hz, chyba, że chcesz by mikrofony wyłapywały tylko talerze, wówczas ustawiasz HPF na 400 - 500 Hz. Wycinasz midy w zależności od stylu i potrzeby, przykładowo jeśli zestaw jest duży, to można wyciąć określone midy dla przejrzystości overheadów. 
+
+Bas.
+	* Low: 60 - 110 Hz. Należy jednakże pamiętać, że bas w tak niskich częstotliwościach często generuje niepotrzebny muł, dlatego bas jest często filtrowany na poziomie 60 - 70 Hz. Dlatego nikt nie boostuje tak niskich częstotliwości jak 40. Wybór equalizowanej częstotliwości zależy od częstotliwości centrali, z reguły centrala okupuje 60 Hz, więc bas powinien być boostowany w zakresie 80 - 110 Hz.
+	* 300 - 440 Hz. Należy boostować te częstotliwości ze względu na pierdziawki, które nie są w stanie odtworzyć częstotliwości niższych niż 300 Hz. Dobrana częstotliwość zależy od podstawy basu.
+	* 800 Hz. Częstotliwości, dzięki którym bas jest słyszalny w miksie, tutaj wybrzmiewa jego atak i charakterystyczny ton (np. nosowy, honkyness).
+	* 1,6k - 2k. Góra basu, szczególnie ważne w gatunkach rockowych i metalowych, by móc przebić się przez gitary. Z reguły powyżej tych częstotliwości nakłada się filtr dolnoprzepustowy, by wyciąć niepotrzebny hałas.
+	* Bas nagrywa się poprzez D.I. lub poprzez Amp (head + głośnik). Sygnał ampowy należy stosować w połączeniu z przesterem czy gridem (wzmacniaczem lampowym lub preampem) by móc przebić się przez mix. D.I., czyli sygnał bezpośredni jest najbardziej elastyczny i podatny na zmiany. Po nagraniu można go bez problemu zalterować dowolnym pluginem. Można go nawet zreampować do comba czy wzmacniacza, w celu nagrania drugiej ścieżki.
+
+
+Przesterowane gitary.
+	* 
+HPF na 50 Hz.
+	* 
+Woofyness (dźwięk tłumionych przesterowanych gitar, djent): 140 - 150 Hz. Z reguły trzeba będzie te rejony ściąć, a nie wzmocnić. Nie należy używać kompresora do takich rzeczy, bo przester sam w sobie jest kompresorem. Takie wyskoki należy equalizować.
+	* 
+Mids: 400 - 1k Hz.
+	* 
+Topend: 3k - 4k Hz.
+	* 
+Presence: wszystko zależy od efektu i gitary. Czasami nakładasz LPF na 8k Hz, czasami boostujesz 10k Hz.
+
+
+Co do czystych gitar czy gate'owanych - powyższe wartości zależą całkowicie od gitary, ampu i efektu.
+
+Akustyczne gitary.
+	* 
+Generalnie WSZYSTKO zależy od modelu.
+	* 
+HPF: 50 Hz.
+	* 
+Mids: 2k - 2,6k Hz. Należy jednakże pamiętać, że to jest jednocześnie zakres, gdzie fortepian/pianino jest szczególnie słyszalne.
+	* 
+Presence: 10k (w przypadku arpeggiów)
+
+
+
+Fortepian/pianino.
+	* 
+HPF w zależności od gustu i piosenki.
+	* 
+Midy do rocka: 2,2k - 2,7k Hz.
+	* 
+W wyjątkowo gęstym mixie wytnij niskie midy (250 - 500 Hz) lub wzmocnij nuty kwintami lub oktawami. Musisz posłuchać i porównać co się lepiej sprawdzi.
+
+
+
+Organy.
+	* 
+Zależy od piosenki
+	* 
+Organy Hammonda B3 należy z reguły należy nagrywać w mono dla kawałków rockowych. Nawet jeśli nagrywasz go trzema mikrofonami to ostatecznie sumujesz wszystko do mono (inna metoda to nagrywanie jednym mikrofonem z 2,5 metra). Z reguły ścieżkę ustawia się na środku, chyba że chcesz ją ustawić na jednym kanale, wówczas musisz wyciąć sporo dołu, gdyż basy i low midy muszą być zbalansowane na obu kanałach, by mix nie sprawiał dziwnego wrażenia (właśnie z tego powodu bas ustawia się na środku).
+Inna metoda polega na ustawieniu organów na jednym kanale, a na drugim reverba. 
+	* 
+Organów Hammonda zasadniczo się nie equalizuje, gdyż organy same w sobie mają EQ, który należy używać już podczas nagrywania.
+	* 
+Jeśli chcesz by organy przebiły się przez mix, wówczas nakładasz przester. Możesz to zrobić (a właściwie należałoby to robić jeśli masz taką możliwość) przez pętlę Send - Return w organach. Ewentualnie Soundtoys Decapitator w DAW. 
+
+
+
+Instrumenty smyczkowe.
+	* 
+Warto jest dywersyfikować biblioteki, które posiadasz. Ustawiasz poszczególne instrumenty na osobnych ścieżkach i na osobnej ścieżce nakładasz na to wszystko reverb, który następnie equalizujesz wedle potrzeb. Dzięki temu jesteś w stanie lepiej wymieszać wszystkie instrumenty.
+	* 
+Ponadto aby struny brzmiały naturalnie warto je wspomagać prawdziwymi instrumentami akustycznymi.
+	* 
+W gatunkach rockowych warto wzmacniać częstotliwości 3k - 4k Hz, inaczej struny się nie przebiją przez gitary. Ponadto należy wycinać struny w low midach (250 - 500 Hz) by nie konkurowały z gitarami, chyba, że nie stanowi to problem dla dźwięków z danej biblioteki. Każda biblioteka brzmi inaczej i wszystko zależy od piosenki.
+	* 
+HPF w zależności od instrumentu, ale należy dokładnie się wsłuchać w daną ścieżkę, gdyż instrumenty smyczkowe z reguły tworzą masę niepotrzebnego hałasu i mułu, który jest zbędny.
+
+
+
+Program EQ (equalizer dla całego mixu)
+	* 
+Jego stosowanie to nie jest wymóg. W dobie taśm analogowych stosowanie takiego equalizera na samym końcu przyczyniało się do wyłonienia się wyższych tonów. Obecnie ma to znacznie głównie przy nagrywaniu własnych instrumentów, gdzie po skończonej pracy chcemy ztweakować określone częstotliwości.
+	* 
+Pultec EQP-1 jest przykładem takiego program equalizera stosowanego w dobie analogów.
+
+

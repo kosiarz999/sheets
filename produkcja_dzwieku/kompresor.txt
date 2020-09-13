@@ -1,0 +1,101 @@
+Kompresja to efekt dynamiczny, który ma za zadanie sprawić, by dane instrumenty brzmiały głośniej bez zwiększenia ich amplitudy (głośności). Jest to również efekt, który niweluje wszelkie skoki amplitudy po to, by instrument brzmiał równiej. Ma to znacznie w szczególności w dolnych rejestrach, gdyż nie chcesz by bas pojawiał się i znikał bez przyczyny.Ratio (współczynnik).Ratio of threshold (współczynnik progu?) - w momencie, gdy przekraczasz określoną wartość (threshold) amplituda jest tłumiona w zależności od ratio. Występują następujące współczynniki: 2:1, 4:1, 6:1, 10:1, 20:1 lub więcej. Ratio 20:1 to już limiter. Limiter nie przepuszcza dźwięku powyżej określonej amplitudy (thresold).To jest między innymi powodem, dla którego nie kompresuje się przesterowanych gitar czy square waves z syntezatora, gdyż są one już skompresowane.
+	* Ratio 2:1 oznacza, że sygnał, który przekroczy próg o 2 dB będzie skompresowany do 1 dB.
+	* Ratio 4:1 oznacza, że sygnał, który przekroczy próg o 8 dB będzie skompresowany do 2 dB, itd.
+
+Ratio 2:1 jest uznawane za łagodną kompresję, jest stosowana przy nagrywaniu elementów perkusji. Ratio 3:1 oraz 4:1 jest uznawana za umiarkowaną. Kompresja 4:1 jest stosowana wobec basu i mix busu (konsoli). Ratio 6:1 jest średnią kompresją. Kompresja 10:1 jest uznawana za silną, takiej kompresji używa się w drum roomach (wobec overheadów), gdy chcesz uzyskać dźwięk podobny do perkusji Bonhama.Attack and ReleaseAttack to czas w jakim zajdzie pełna kompresja dźwięku do poziomu progu. Slow attack sprawi, że wstępny atak będzie miał czas na to by wybrzmieć, dzięki temu masz większe uderzenie (more punch). Fast attack kompresuje błyskawicznie, co zresztą słychać (more snap). Jednakże będziesz musiał stosować takie ustawienie na instrumentach, które mają szybki atak i znaczne skoki amplitudy.Fast attack należy używać z basem, gitarą akustyczną, syntezatorem o szybkich transjentach i wokalem, ale tylko do wyłapywania szczytów (picków).Release to czas po jakim kompresja przestanie działać. Ma to znaczenie głównie w wybrzmiewaniu dźwięku. Przykładowo, jeśli masz bas, który szybko zanika, możesz ustawić długi release, by nuta dłużej trzymała poziom progu.Mix bus.Odpowiednie dobranie attack i release jest KLUCZOWE w przypadku mix busu (konsoli). Ratio wynosi 4:1. Standardowo używa się kompresora SSL. Attack waha się od 1 do 10 mls. Release ustawiony na auto.Typy kompresorów (hardware).
+	1. Optyczny - kompresor oparty na świeceniu diody. Przykładem LA2A (bas, wokal; UA Plug: 300 euro, Waves CLA-2A: 70$), LA3A (gitary, bez szybkich transjentów; UA: 150 euro, Waves CLA-3A: 50$), Tube Tech CL1B (dobry do basu, wokalu i gitar, niekoniecznie dobry przy szybkich transjentach; UA: 300 euro).
+	2. FET - Field Effect Transistor. UA1176 (bardzo szybki atak i release, o specyficznym brzmieniu, idealny do wokalu; UA: 300 euro, Waves: 50$).
+	3. VCA - Voltage Controled Amplifier. SSL G+ (UA: 300 euro, Waves: 100$), Neve 33609 (dobry do konsoli i masteringu; UA: 250 euro).
+	4. Variable MU. Stary układ oparty o lampy próżniowe. Nie kontroluje się go poprzez próg+ratio, ale za pomocą gałek input/output. Bardzo gęsty, przesterowany kompresor, stosowany przez Beatelsów, Zeppelinów, Pink Floydów. Dobry do perkusji i tworzony z myślą o perkusji. Stosowany do mix busu by nadać mixowi stare brzmienie lat 70-tych. Fairchild 660 + 670, EMI TG12345 (UA Fairchild: 300 euro, Waves EMI: 30$).
+
+Inne kompresory.
+	1. Multiband. Możesz ustawiać różne wartości kompresora dla różnych zakresów częstotliwości. McDSP MC200 (100 euro), ML4000 (77 euro), Waves C6 (6 bandów, 30$), FabFilter Pro-MB (170 euro), iZotope Ozone 8 (100 euro).
+	2. Sidechain lub Ducking. Kompresor, który załącza się gdy dana częstotliwość jest zbyt okupowana. Często stosowane w EDM. Przykładowo, jeśli synth bass dominuje w niskich częstotliwościach, ale chciałbyś użyć centrali, wówczas możesz użyć sidechaina na syntezatorze, by skompresował go w momencie uderzenia centrali. Stąd określenie ducking (przykucnąć). Generalnie sidechain używa sygnału do tego by włączyć kompresor. Przykładowe pluginy: Waves H-Comp (50$), API 2500 (UA: 300 euro, Waves: 70$), FabFilter Pro-MB (170 euro).
+	3. Pararell Compression. Generalnie miksuje sygnał nieskompresowany z wysoce skompresowanym sygnałem. Współcześnie praktycznie każdy plugin zawiera gałkę "mix". Bardzo dobry do wokalu. Przykładowo: Cytomic The Glue (prawie jak emulacja SSL, dobry do perkusji, 100$), Kush Audio UBK-1 (90$).
+
+Dobór kompresorów.Perkusja.
+	* Kick (centrala). Z reguły nie nagrywa się z kompresorem, kompresora używasz podczas miksowania. dbx 160 (UA: 200 euro, Waves: 30$), SSL Channel (UA: 300 euro, Waves: 100$), Metric Halo Channel Strip (180$).
+	* Snare (werbel). dbx 160, SSL Channel, Metric Halo Channel Strip, UA1176 (UA: 300 euro, Waves: 50$), Distressor (UA: 300 euro)
+	* Toms. SSL Channel, w celu deliatnej kompresji i wycięcia midów 400 - 500 Hz.
+	* Overheads. Generalnie nie należy kompresować tych mikrofonów, ale jeśli się zdecydujesz to wybierasz: UA1176, SSL Channel, Metric Halo Channel Strip, Waves Renaissance Channel (90$).
+	* Rooms. Kush Audio UBK-1 (90$). SSL Channel, McDSP MC2000, UA1176, Distressor.
+
+Bas.
+	* LA2A - dobry również do nagrywania (UA: 300 euro, Waves: 70$). 
+	* dbx160 - również świetny do nagrywania (UA: 200 euro, Waves: 30$).
+	* UA1176 (UA: 300 euro, Waves: 50$).
+	* Fairchild 660 (UA Fairchild: 300 euro, Waves EMI: 30$).
+
+Gitara akustyczna.
+Zawsze należy kompresować gitarę akustyczną podczas nagrywania. Kompresor musi być szybki, ale nie może mieć wysokich wartości. Wówczas stosujesz coś takiego jak Distressor (UA: 300 euro) czy 1176 (UA: 300 euro, Waves: 50$).
+Podczas miksowania używasz: 
+	* 
+UA1176 (UA: 300 euro, Waves: 50$)
+	* 
+LA2A (UA: 300 euro, Waves: 70$)
+	* 
+Waves CLA Unplugged
+	* 
+dowolny multiband
+
+
+
+Gitara elektryczna.
+Jeśli jest przesterowana to nie należy jej kompresować, bo przester sam w sobie jest kompresorem.
+Dla rytmicznych/funkowych czystych gitar należy używać szybkich kompresorów, najlepiej w fazie nagrywania:
+	* 
+LA3A (UA: 150 euro, Waves CLA-3A: 50$),
+	* 
+UA1176 (UA: 300 euro, Waves: 50$)
+	* 
+dbx160 (UA: 200 euro, Waves: 30$).
+
+
+
+Fortepian.
+Należy kompresować fortepian/pianino w przypadku muzyki rockowej lub elektronicznej. 
+	* 
+Kush Audio UBK-1 (90$)
+	* 
+SSL Channel (UA: 300 euro, Waves: 100$)
+	* 
+UA1176 (UA: 300 euro, Waves: 50$)
+	* 
+Fairchild 660 (UA Fairchild: 300 euro, Waves EMI: 30$).
+	* 
+API 2500 (UA: 300 euro, Waves: 70$)
+
+
+
+Wokal.
+Używany już na poziomie nagrywania. 
+	* 
+UA1176 (UA: 300 euro, Waves: 50$),
+	* 
+Distressor jako high comp (UA: 300 euro), 
+	* 
+LA2A jako low comp (UA: 300 euro, Waves: 70$),
+
+
+	* 
+Fairchild 660 jeśli chcesz podkolorować wokal (UA Fairchild: 300 euro, Waves EMI: 30$),
+	* 
+dbx160 (UA: 200 euro, Waves: 30$),
+	* 
+LA3A (UA: 150 euro, Waves CLA-3A: 50$),
+	* 
+Tube Tech CL1B (UA: 300 euro).
+
+
+
+Drum buss.
+	* 
+Cytomic The Glue (100$),
+	* 
+SSL Channel (UA: 300 euro, Waves: 100$),
+	* 
+FabFilter Pro-C 2 (150 euro),
+	* 
+Neve 33609 (UA: 250 euro).
+
+

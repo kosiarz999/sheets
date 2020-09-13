@@ -1,0 +1,12 @@
+Sygnał należy rozdzielić na dwie ścieżki.
+W przypadku "zwykłych" gatunków należy sygnał nagrywać dwoma mikrofonami, jeden na dół, drugi na górę. Przykładowo Shure Beta52A na jeden głośnik na dół, potem Shure SM57 na drugi głośnik na górę.
+W przypadku muzyki metalowej i progresywnej, dół idzie na głośnik, a góra to czysty sygnał na DI, ewentualnie już przesterowany sygnał puszczony przez preamp (jak Darkglass Microtubes X7 lub Tech21 SansAmp Bass D.I.).
+
+Oczywiście nie musisz tego robić. W szczególności tyczy się to bardzo przesterowanych gitar, wówczas często wybierany jest tylko przesterowany sygnał D.I., bez głośników/ampa.
+
+Kompresji należy używać cały czas, ale należy używać go z głową. Dokonanych ustawień nie można już cofnąć, gdy ścieżka została już nagrana. Poza tym ustawienia się zmieniają w zależności od piosenki.
+Najlepiej jest używać małych wartości kompresji rzędu 2:1 czy 3:1. Wyjątkiem są slapy, tutaj różnice w wysokości sygnału są ogromne, dlatego ścieżka powinna być znacznie bardziej skompresowana. 
+Release time kompresji należy ustawić pod tempo piosenki. 
+Sygnał należy skompresować na wejściu, jeśli tego wymaga mix to można go dodatkowo skompresować później. Dlatego lepiej jest nie przesadzać z wartościami na samym początku, bo zawsze można coś dołożyć później. 
+
+Podstawą jest dążenie do docelowego dźwięku basu zaraz na samym wstępnie w procesie samego nagrywania. Mix jest po to, by móc doszlifować robotę, a nie nadać jej kształt. Nie nagrywaj byle jak byle czego na 30 różnych sposobów po to tylko by mieszać wszystko ze wszystkim. Musisz mieć wizję na dźwięk, wiedzieć czego chcesz dążyć do tego od samego początku, jeszcze podczas nagrywania.
